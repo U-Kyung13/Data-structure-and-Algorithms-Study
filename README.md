@@ -5,3 +5,4 @@
 
 
 - 노션에 [자료구조 알고리즘 개념](https://www.notion.so/d91eecaf8859443c8cd772644b3ecf1a?v=67ce6fc98db04ffdb1c10134f8bf87a1&pvs=4)을 공부하며 정리한 내용입니다. 
+  - 클릭시 해당 링크로 이동합니다.
