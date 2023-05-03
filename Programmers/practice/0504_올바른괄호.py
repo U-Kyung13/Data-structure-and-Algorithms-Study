@@ -8,5 +8,4 @@ def solution(s):
                 stack.pop()
             else:
                 return False
-
     return stack == []
