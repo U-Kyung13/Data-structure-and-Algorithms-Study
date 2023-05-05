@@ -14,3 +14,8 @@ def solution(s):
         
     answer = [convert_cnt, remove_cnt]
     return answer
+
+
+# 이진수 표현 방법
+# 1) bin(x)
+# 2) format(x, 'b')
