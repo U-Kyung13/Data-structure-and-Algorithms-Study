@@ -1,3 +1,4 @@
+# 내 풀이 : 투포인터
 def solution(n):
     n_list = [i for i in range(1, n+1)]
     answer = 0
