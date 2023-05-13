@@ -1,4 +1,4 @@
-# TLE
+# TLE (내 풀이)
 def solution(people, limit):
     people.sort(reverse = True) # 무거운 순으로 정렬
     answer = 0
@@ -12,5 +12,18 @@ def solution(people, limit):
     return answer
 
   
-  # 투포인터
+# 투포인터 (다른 사람 풀이)
+def solution(people, limit):
+    answer = 0
+    people.sort() # 가벼운 순으로 정렬 
+    a = 0
+    b = len(people) - 1
+    while a < b:
+        # 두명씩 묶이는 조합의 개수
+        if people[a] + people[b] <= limit:
+            a += 1
+            answer += 1
+        b -= 1
+    return len(people) - answer
+
   
