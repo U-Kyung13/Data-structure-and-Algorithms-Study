@@ -1,3 +1,4 @@
+# 내 풀이 
 def solution(n,a,b):
     temp1 = [0]*n
     temp1[a-1] = 1
