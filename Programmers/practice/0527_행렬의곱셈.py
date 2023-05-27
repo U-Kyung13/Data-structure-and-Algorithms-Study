@@ -1,7 +1,9 @@
-# numpy 모듈 사용
-import numpy as np
-def solution(arr1, arr2):
-    answer = np.array(arr1) @ np.array(arr2)
-    return answer.tolist()
-  
+def solution(A, B):
+    answer = []
+    for A_row in A:
+        row_temp = []
+        for B_col in zip(*B):
+            row_temp.append(sum(x*y for x, y in zip(A_row, B_col)))
+        answer.append(row_temp)
+    return answer
   
